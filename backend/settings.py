@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-#poa82%zg39_jiw8vmqdg!h1#v2g3#0^r7#n^#5fj(7(k#57uc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', "https://shortly-backend-5b4660853352.herokuapp.com/", "shortly-backend-5b4660853352.herokuapp.com"]
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
